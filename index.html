@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Minecraft Juego</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="mundo" style="background-image: url('assets/img/cesped.png');">
+    <img src="assets/img/steve.png" id="steve" class="personaje" />
+    <img src="assets/img/alex.png" id="alex" class="personaje" />
+    <img src="assets/img/creeper.png" id="creeper" class="personaje" style="display: none;" />
+    <div id="dialogo" class="burbuja">¡Vamos a explorar!</div>
+
+    <div id="controles">
+      <h3>Controles</h3>
+      <ul>
+        <li><b>WASD / Flechas</b> - Mover a Steve</li>
+        <li><b>H</b> - Hablar</li>
+        <li><b>O</b> - Mostrar/Ocultar Alex</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
