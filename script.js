@@ -53,7 +53,6 @@ function mostrarMuerte() {
   $('#mundo').removeClass('temblor');
   $('#mundo').css('background-image', "url('assets/img/muerto.png')");
 
-  // Aquí los personajes desaparecen sin animación
   $('#steve').hide();
   $('#alex').hide();
   $('#creeper').hide();
